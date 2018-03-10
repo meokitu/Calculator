@@ -34,6 +34,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.txt1 = new System.Windows.Forms.TextBox();
             this.txt2 = new System.Windows.Forms.TextBox();
+            this.bttru = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -87,11 +88,22 @@
             this.txt2.Size = new System.Drawing.Size(100, 20);
             this.txt2.TabIndex = 5;
             // 
+            // bttru
+            // 
+            this.bttru.Location = new System.Drawing.Point(185, 175);
+            this.bttru.Name = "bttru";
+            this.bttru.Size = new System.Drawing.Size(75, 23);
+            this.bttru.TabIndex = 6;
+            this.bttru.Text = "Tru";
+            this.bttru.UseVisualStyleBackColor = true;
+            this.bttru.Click += new System.EventHandler(this.bttru_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.bttru);
             this.Controls.Add(this.txt2);
             this.Controls.Add(this.txt1);
             this.Controls.Add(this.button4);
@@ -113,6 +125,7 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TextBox txt1;
         private System.Windows.Forms.TextBox txt2;
+        private System.Windows.Forms.Button bttru;
     }
 }
 
